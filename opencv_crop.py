@@ -1,3 +1,6 @@
+# USAGE
+# python3 opencv_crop.py --image images/elon_musk_tesla.png
+
 # import the necessary packages
 import argparse
 import cv2
