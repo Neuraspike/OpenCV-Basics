@@ -1,4 +1,4 @@
-# USAGE
+# HOW TO RUN
 # python3 opencv_crop.py --image images/elon_musk_tesla.png
 
 # import the necessary packages
