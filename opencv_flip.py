@@ -1,5 +1,5 @@
 # HOW TO RUN
-# python3 opencv_flip.py --image images/opencv_logo.png
+# python3 opencv_flip.py --image images/lucid.jpg
 
 # import the necessary packages
 import argparse
