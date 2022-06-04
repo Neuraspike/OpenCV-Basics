@@ -15,20 +15,20 @@ image = cv2.imread(args['image'])
 cv2.imshow("Image", image)
 
 # flip the image horizontally
-flippedImage = cv2.flip(image, 1)
-cv2.imshow("Horizontal image", flippedImage)
+horizontal_flip_img = cv2.flip(image, flipCode=1)
+cv2.imshow("Horizontal flip", horizontal_flip_img)
 print(f"[INFO] flipping image horizontally...")
 cv2.waitKey(0)
 
 # flip the image vertically
-flippedImage = cv2.flip(image, 0)
-cv2.imshow("Vertical Image", flippedImage)
+vertical_flip_img = cv2.flip(image, flipCode=0)
+cv2.imshow("Vertical flip", vertical_flip_img)
 print(f"[INFO] flipping image vertically...")
 cv2.waitKey(0)
 
 # flip the image both horizontally and vertically
-flippedImage = cv2.flip(image, -1)
-cv2.imshow("Horizontal and Vertical flip", flippedImage)
+flip_image = cv2.flip(image, flipCode=-1)
+cv2.imshow("Horizontal and vertical flip", flip_image)
 print(f"[INFO] flipping image horizontally and then vertically...")
 
 # waits for any key to be pressed then remove any
